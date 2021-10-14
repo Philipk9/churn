@@ -1,3 +1,4 @@
+
 var COLORS, Confetti, NUM_CONFETTI, PI_2, canvas, confetti, context, drawCircle, drawCircle2, drawCircle3, i, range, xpos;
 NUM_CONFETTI = 40;
 COLORS = [
@@ -120,3 +121,16 @@ setTimeout(function () {
         document.getElementById('confeti').style.display='none';
     }, 3700);
 }, 3700);
+
+
+document.getElementById("cta").addEventListener("click", function() {
+    document.getElementById('confeti').style.display='block';
+    setTimeout(function () {
+        document.getElementById('confeti').style.display='none';
+    }, 3700)
+    
+  });
+
+  $(window).load(function(){        
+    $('#myModal').modal('show');
+     }); 
