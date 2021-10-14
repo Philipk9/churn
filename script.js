@@ -118,5 +118,5 @@ setTimeout(function () {
     document.getElementById('confeti').style.display='none';
     setTimeout(function () {
         document.getElementById('confeti').style.display='none';
-    }, 4000);
-}, 4000);
+    }, 3700);
+}, 3700);
