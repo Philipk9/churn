@@ -1,0 +1,128 @@
+
+.body {
+    position: absolute;
+}
+
+.container {
+
+    box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+    border-radius: 6px;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 100px;
+    height: 500px;
+    width: 850px;
+    height: 409px;
+    width: 630px;
+
+}
+
+
+.title {
+    position:relative;
+    margin-top: 20px;
+    margin-left: auto;
+    text-align: center;
+    font-size: 30px;
+    font-family: Emirates-Bold;
+    color: #333333;
+}
+
+
+.body {
+    position:relative;
+    top: 10%;
+    margin-left: auto;
+    text-align: center;
+    font-size: 14px;
+    font-family: HelveticaNeue-Light; 
+    color: #333333;
+    margin-top: 25px;
+    width: 500px;
+    margin-right: auto;
+}
+
+
+
+.icon {
+   margin-left: auto;
+   margin-right: auto;
+   margin-top: 20px;
+    position: relative;
+    height: 60px;
+    width: 60px;
+    background-color: black;
+    background: url("imgs/gift.png");
+    background-repeat: no-repeat;
+    background-size: 60px;
+}
+
+
+#confeti {
+    margin-top: 0x;
+    height: 350px;
+    width: 650px;
+    opacity: 1;
+    animation: fadeOut 4s linear;
+    
+   
+}
+
+
+
+
+
+   .content {
+    position: absolute;
+    margin-top: 30px;
+    margin-left: 53px;
+    margin-right: auto;
+   } 
+
+
+.primary{
+    color: white;
+    display: inline-block;
+    align-items: center;
+    justify-content: center;
+    background-color:#C60D30;
+    border-radius: 6px;
+    font-family: HelveticaNeue-Light; 
+    font-weight: bold;
+    margin-top: 39px;
+    padding: 20px 50px 20px 50px;
+  
+    
+   
+}
+
+
+.secondary{
+    /* color: white; */
+    display: inline-block;
+    align-items: center;
+    justify-content: center;
+    /* background-color:#C60D30; */
+    border-radius: 6px;
+    font-family: HelveticaNeue-Light; 
+    font-weight: bold;
+    margin-top: 39px;
+    padding: 17.5px 70px 17.5px 70px;
+    margin-left: 13px;
+
+    box-shadow: 0 2px 1px 0 rgb(0 0 0 / 10%);
+    border-radius: 3px 3px 3px 0 3px;
+    border: .1rem solid #333;
+    background: #fff;
+    color: #333;
+    
+}
+
+
+  
+  @keyframes fadeOut {
+    0% { opacity: 1; }
+    50% { opacity: 1; }
+    100% { opacity: 0; }
+  }
