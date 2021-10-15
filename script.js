@@ -119,18 +119,34 @@ setTimeout(function () {
     document.getElementById('confeti').style.display='none';
     setTimeout(function () {
         document.getElementById('confeti').style.display='none';
-    }, 3700);
-}, 3700);
+    }, 4500);
+}, 4500);
 
 
 document.getElementById("cta").addEventListener("click", function() {
     document.getElementById('confeti').style.display='block';
     setTimeout(function () {
         document.getElementById('confeti').style.display='none';
-    }, 3700)
+    }, 4500)
     
   });
 
-  $(window).load(function(){        
-    $('#myModal').modal('show');
-     }); 
+
+  document.getElementById("cta1").addEventListener("click", function() {
+    document.getElementById('confeti').style.display='block';
+    setTimeout(function () {
+        document.getElementById('confeti').style.display='none';
+    }, 4500)
+    
+  });
+
+
+// document.getElementById("cta2").addEventListener("click",
+//     $('modal1').modal('hide')
+//   );
+  
+
+  document.getElementById("cta2").addEventListener("click", function() {
+    $("#popup").modal("hide");
+    
+  });
