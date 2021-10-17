@@ -78,8 +78,8 @@ body {
 
 #confeti {
     /* margin-top: 0x; */
-    height: 500px !important;
-    width: 1000px !important;
+    height: 1200px !important;
+    width: 2000px !important;
     opacity: 1;
     animation: fadeOut 3.5s linear;
     
