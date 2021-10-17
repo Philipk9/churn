@@ -37,7 +37,7 @@ body {
     margin-left: auto;
     text-align: center;
     font-size: 30px;
-    font-family: EmiratesSBVN-Bold;
+    font-family: EmiratesSBVN-Bold  ;
     color: #333333;
 }
 
@@ -162,7 +162,10 @@ body {
       
     .content {
         margin-left: 20px;
-        width: 317px;
+        margin-right: 20px;
+        /* width: 317px;
+        
+        margin-left:auto; */
     }
 
     .body-copy {
