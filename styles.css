@@ -70,11 +70,16 @@ body {
     background-size: 60px;
 }
 
+.animationContainer {
+    width: 629px;
+    height: 430px;
+    overflow: hidden;
+}
 
 #confeti {
     /* margin-top: 0x; */
-    height: 351px;
-    width: 625px;
+    height: 500px !important;
+    width: 1000px !important;
     opacity: 1;
     animation: fadeOut 3.5s linear;
     
@@ -190,11 +195,17 @@ body {
     
     #confeti {
 
-        height: 400px;
-        width: 350px;
+        height: 450px !important;
+        width: 350px !important;
 
     }
 
+    .animationContainer {
+        width: 355px;
+        height: 700px;
+        overflow: hidden;
+
+}
 }
 
 
@@ -210,6 +221,6 @@ body {
     100% { opacity: 1; }
   }
 
+  
 
-
-  @font-face{font-family:EmiratesSBVN-Bold;font-style:normal;font-display:swap;src:url(https://c.ekstatic.net/shared/fonts/vi-ek/emirates-bold.eot);src:url(https://c.ekstatic.net/shared/fonts/vi-ek/emirates-bold.eot#iefix) format("embedded-opentype"),url(https://c.ekstatic.net/shared/fonts/vi-ek/emirates-bold.woff2) format("woff2"),url(https://c.ekstatic.net/shared/fonts/vi-ek/emirates-bold.woff) format("woff"),url(https://c.ekstatic.net/shared/fonts/vi-ek/emirates-bold.ttf) format("truetype")} 
+  @font-face{font-family:EmiratesSBVN-Bold;font-style:normal;font-display:swap;src:url(https://c.ekstatic.net/shared/fonts/vi-ek/emirates-bold.eot);src:url(https://c.ekstatic.net/shared/fonts/vi-ek/emirates-bold.eot#iefix) format("embedded-opentype"),url(https://c.ekstatic.net/shared/fonts/vi-ek/emirates-bold.woff2) format("woff2"),url(https://c.ekstatic.net/shared/fonts/vi-ek/emirates-bold.woff) format("woff"),url(https://c.ekstatic.net/shared/fonts/vi-ek/emirates-bold.ttf) format("truetype")}
