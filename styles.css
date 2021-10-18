@@ -94,7 +94,7 @@ body {
    .content {
     position: absolute;
     margin-top: 30px;
-    margin-left: 53px;
+    margin-left: 43px;
     margin-right: auto;
    } 
 
@@ -114,10 +114,17 @@ body {
     cursor: pointer;
     font-size: 16px;
     width: 260px;
-
-  
-    
    
+}
+
+
+.hyperlink {
+    text-decoration: underline;
+    text-align: center;
+    font-family: HelveticaNeue-Light; 
+    font-weight: lighter;
+    font-size: 14px;
+
 }
 
 
