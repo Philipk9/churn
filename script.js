@@ -150,3 +150,10 @@ document.getElementById("cta").addEventListener("click", function() {
     $("#popup").modal("hide");
     
   });
+
+  #expand {
+    display: none;
+  }
+  #toggle:checked ~ #expand {
+    display: block;
+  }

@@ -219,6 +219,32 @@ body {
 }
 
 
+
+#expand {
+    display: none;
+  }
+  #toggle:checked ~ #expand {
+    display: block;
+  }
+
+
+
+  #accordion section p {
+display: none;
+  }
+
+  #accordion section a {
+    text-decoration: none;
+    color: black;
+          }
+
+#accordion section:target p {
+display: block;
+      }
+    
+
+
+
   @keyframes fadeOut {
     0% { opacity: 1; }
     50% { opacity: 1; }
